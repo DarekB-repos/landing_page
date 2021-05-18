@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: #222;
   margin: 0;
 }
 
@@ -19,7 +18,7 @@ header {
   line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 46px;
+  margin: 7px 46px;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
@@ -51,7 +50,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 7px 40px;
 }
 
 nav ul li a {
@@ -60,10 +59,18 @@ nav ul li a {
   font-size: 16px;
 }
 
-.content {
+.content,
+h2 {
   margin: 20px;
 }
 
 .content img {
   width: 100%;
+}
+
+.project-frame {
+  margin: 20px;
+  width: 200px;
+  height: 150px;
+  background-color: darkblue;
 }
