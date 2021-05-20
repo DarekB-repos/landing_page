@@ -1,10 +1,8 @@
-$(document).ready(function () {
-  $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll > 300) {
-      $(".black").css("background", "blue");
-    } else {
-      $(".black").css("background", "#333");
-    }
-  });
-});
+function myFunction() {
+  var x = document.getElementById("topnav");
+  if (x.className === "topmenu") {
+    x.className += " responsive";
+  } else {
+    x.className = "topmenu";
+  }
+}
