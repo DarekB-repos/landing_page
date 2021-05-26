@@ -48,10 +48,6 @@ nav ul li:last-child {
   display: none;
 }
 
-nav.black ul {
-  background: #000;
-}
-
 nav ul li {
   display: inline-block;
   padding: 7px 40px;
@@ -61,6 +57,11 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
+}
+
+.nav-color {
+  height: 70px;
+  background-color: rgba(94, 99, 99, 0.59);
 }
 
 .content,
@@ -92,19 +93,7 @@ h2 {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 720px) {
-  nav.topmenu.responsive {
+  nav.topmenu {
     position: relative;
-  }
-
-  nav.topmenu.responsive li:last-child {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  nav.topmenu.responsive ul li {
-    float: none;
-    display: block;
-    text-align: left;
   }
 }
