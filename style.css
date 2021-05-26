@@ -18,7 +18,7 @@ header {
   line-height: 60px;
   position: fixed;
   float: left;
-  margin: 7px 46px;
+  margin: 7px 46px 12px 20px;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
@@ -95,12 +95,14 @@ h2 {
   nav.topmenu.responsive {
     position: relative;
   }
+
   nav.topmenu.responsive li:last-child {
     position: absolute;
     right: 0;
     top: 0;
   }
-  nav.topmenu.responsive li {
+
+  nav.topmenu.responsive ul li {
     float: none;
     display: block;
     text-align: left;
